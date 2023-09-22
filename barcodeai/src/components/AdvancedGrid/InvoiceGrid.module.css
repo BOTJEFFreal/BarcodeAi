@@ -1,0 +1,105 @@
+.gridContainer {
+  border: 2px solid #fafafa;
+  border-radius: 16px;
+  background-color: #fafafa;
+}
+
+.gridHeader,
+.gridRow {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridHeader > div,
+.gridRow > div {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add this line */
+  white-space: nowrap; /* Add this line */
+  /* max-height: 40px; */
+}
+.barcodeHeading{
+  flex: 2;
+}
+.gridHeader > div {
+  font-weight: bold;
+  background-color: #6e59a4;
+  color: #fff;
+  font-size: 18px;
+  padding: 25px 0px;
+}
+
+.gridRow > div {
+  color: #2b2b2b;
+}
+
+.barcode {
+  align-self: center;
+  height: 50px; /* Set a fixed height */
+  width: fit-content; /* Allow the width to fit the content */
+}
+
+
+input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: none;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.buttonsList{
+  flex: 2;
+  margin-top: 2.5%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.approvedFiles{
+  display: flex;
+min-width: 64px;
+padding: 10px 15px;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+background: #18855E;
+
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24.5px; /* 175% */
+margin-right: 10px;
+}
+
+.printBarcode{
+  display: flex;
+min-width: 64px;
+padding: 10px 15px;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+background: #6E59A4;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24.5px; /* 175% */
+}
+

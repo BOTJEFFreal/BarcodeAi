@@ -15,7 +15,7 @@ function InvoiceGrid(){
           </div>
           <div className="grid-row">
             <div>1</div>
-            <div>File1.pdf</div>
+            <div><a href="/">File1.pdf</a></div>
             <div>2023-09-15</div>
             <div>10</div>
             <div>$100.00</div>
@@ -23,7 +23,7 @@ function InvoiceGrid(){
           </div>
           <div className="grid-row">
             <div>2</div>
-            <div>File2.pdf</div>
+            <div><a href="/">File2.pdf</a></div>
             <div>2023-09-15</div>
             <div>12</div>
             <div>$1000.00</div>
