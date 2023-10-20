@@ -7,7 +7,8 @@ import os
 from django.conf import settings
 from .OpenAI_functions import *
 
-NANONETS_API_KEY=os.environ.get('NANONETS_API_KEY')
+NANONETS_API_KEY='a71e898c-f947-11ed-98af-ce47f9786cdf'
+# NANONETS_API_KEY=os.environ.get('NANONETS_API_KEY')
 
 def get_JSON_from_pdf(filename):
 

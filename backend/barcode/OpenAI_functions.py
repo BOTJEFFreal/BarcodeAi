@@ -3,8 +3,8 @@
 
 import openai
 import os
-OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
-# OPENAI_API_KEY='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'
+# OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
+OPENAI_API_KEY='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'
 def getReply(promptText):
     openai.api_key = OPENAI_API_KEY
     completion =openai.ChatCompletion.create(
@@ -15,7 +15,7 @@ def getReply(promptText):
     return reply_content
 
 def getReplies(message_list):
-    openai.api_key = OPENAI_API_KEY 
+    openai.api_key = OPENAI_API_KEY
     message_history=[]
     reply_content = []
     for message in message_list:
